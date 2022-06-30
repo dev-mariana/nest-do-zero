@@ -28,6 +28,6 @@ export class Course {
             return;
         }
 
-        this.id = uuidv4;
+        this.id = uuidv4();
     }
 }
